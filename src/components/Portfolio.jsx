@@ -170,7 +170,7 @@ const Portfolio = () => {
         title: 'DeTernera.com',
         description: 'Plataforma e-commerce para venta de productos cárnicos con sistema de delivery.',
         stack: ['React', 'Redux-Toolkit', 'Strapi CMS', 'Node.js', 'MercadoPago'],
-        link: 'www.deternera.com',
+        link: 'https://www.deternera.com/',
         details: [
           'Desarrollo full stack del e-commerce',
           'Integración de pagos con MercadoPago',
@@ -330,13 +330,13 @@ const Portfolio = () => {
     <p className="text-lg mb-6">{content[language].header.location}</p>
     <div className="flex items-center justify-between">
       <div className="flex gap-4 flex-wrap">
-        <a href="https://github.com/Fras28" className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+        <a href="https://github.com/Fras28"    target='_blank' className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
           <Github size={20} /> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/francoselvarolo/" className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+        <a href="https://www.linkedin.com/in/francoselvarolo/"    target='_blank' className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
           <Linkedin size={20} /> LinkedIn
         </a>
-        <a href="mailto:fselvarolo28@gmail.com" className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+        <a href="mailto:fselvarolo28@gmail.com"    target='_blank' className="flex items-center gap-2 bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors">
           <Mail size={20} /> Email
         </a>
       </div>
@@ -419,6 +419,7 @@ const Portfolio = () => {
                 </div>
                 {project.link && (
                   <a
+                    target='_blank'
                     href={project.link}
                     className="flex items-center gap-2 text-blue-600 hover:text-blue-700"
                   >
@@ -464,10 +465,10 @@ const Portfolio = () => {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-6 text-center">
-          <p>© 2024 Franco Selvarolo Arcuri. {language === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}</p>
+          <p>© 2023 Franco Selvarolo Arcuri. {language === 'es' ? 'Todos los derechos reservados.' : 'All rights reserved.'}</p>
           <div className="flex justify-center gap-4 mt-4 flex-col">
-            <a href="tel:+54-291-5729501" className="hover:text-blue-400">+54-291-5729501</a>
-            <a href="mailto:fselvarolo28@gmail.com" className="hover:text-blue-400">fselvarolo28@gmail.com</a>
+            <a href="tel:+54-291-5729501"    target='_blank' className="hover:text-blue-400">+54-291-5729501</a>
+            <a href="mailto:fselvarolo28@gmail.com"    target='_blank' className="hover:text-blue-400">fselvarolo28@gmail.com</a>
           </div>
         </div>
       </footer>
