@@ -180,7 +180,7 @@ const Portfolio = () => {
         ]
       },
       {
-        title: 'Desarrollador WordPress',
+        title: 'The Software Kings',
         description: ['Mantenimiento de plugins',
         'Actualizaciones de estructura',
         'Carga y actualización de productos'],
@@ -192,6 +192,17 @@ const Portfolio = () => {
           'Sistema de autenticación con Google',
           'Gestión de pedidos, Polls e Idiomas',
           'Panel de administración completo'
+        ]
+      },
+      {
+        title: 'El Mundo de la Parrilla',
+        description: 'Web multi pantalla ',
+        stack: ['React', 'Redux-Toolkit', 'Node.js'],
+        link: 'https://www.elmundodelaparrilla.com/',
+        details: [
+          'Desarrollo full stack',
+          'Integración de envio de mails',
+          'Gestión de reservas',
         ]
       },
       {
@@ -258,6 +269,34 @@ const Portfolio = () => {
           'Google authentication system',
           'Order and delivery management',
           'Complete admin panel'
+        ]
+      },
+      {
+        title: 'The Software Kings',
+        description: [
+          'Plugin maintenance',
+          'Structure updates', 
+          'Product loading and updates'
+        ],
+        stack: ['Wordpress', 'ElementorPro', 'Shoptimizer', 'WpRocket', 'Stripe'],
+        link: 'https://thesoftwarekings.com',
+        details: [
+          'Full stack e-commerce development',
+          'Stripe/PayPal payment integration',
+          'Google authentication system',
+          'Order management, Polls and Languages',
+          'Complete admin panel'
+        ]
+      },
+      {
+        title: 'El Mundo de la Parrilla',
+        description: 'Multi-screen website',
+        stack: ['React', 'Redux-Toolkit', 'Node.js'],
+        link: 'https://www.elmundodelaparrilla.com/',
+        details: [
+          'Full stack development',
+          'Email integration',
+          'Reservation management'
         ]
       },
       {
